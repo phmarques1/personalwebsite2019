@@ -1,0 +1,116 @@
+.Articles {
+  margin: 130px auto;
+  padding: 0 5%;
+  max-width: 1200px;
+}
+
+.Articles--Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article--Container {
+  display: flex;
+  flex: 1;
+  margin-right: 40px;
+}
+
+.article--Container:last-child {
+  margin-right: 0px;
+}
+
+.article--Container > a {
+  display: block;
+  width: 100%;
+}
+
+.Article {
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.Article img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.Article h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0 20px 30px;
+  width: 290px;
+  align-self: end;
+  line-height: 1.3;
+}
+
+.Article p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  align-self: end;
+  font-weight: 300;
+  margin: 0 0 32px 30px;
+}
+
+.Article:hover p {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 1279px) {
+  .Article h3 {
+    font-size: 24px;
+    width: 260px;
+  }
+
+  .Article p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Articles--Wrapper {
+    flex-direction: column;
+  }
+
+  .Articles--Wrapper > div {
+    margin-right: 0;
+  }
+
+  .Articles--Wrapper > div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .Article h3 {
+    font-size: 30px;
+    width: 540px;
+  }
+
+  .Article p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Article {
+    height: 400px;
+  }
+
+  .Article h3 {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .Article p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Article h3 {
+    width: 300px;
+  }
+}

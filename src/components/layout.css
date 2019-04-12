@@ -1,0 +1,48 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Segoe UI",
+    "Helvetica Neue", "Helvetica", sans-serif;
+  margin: 0;
+}
+
+.Hero {
+  margin: 154px auto 140px;
+  max-width: 1200px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: left;
+  max-width: 815px;
+  font-size: 49px;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 32px 0;
+  line-height: 1.3em;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hero {
+    margin: 100px auto 86px;
+  }
+}

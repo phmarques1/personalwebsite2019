@@ -1,0 +1,404 @@
+a {
+  text-decoration: none;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workItem {
+  flex-grow: 1;
+  width: calc(50% - 40px);
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.workItem:nth-child(even) {
+  margin-right: 0;
+}
+
+.workItem > div {
+  max-width: 100%;
+  max-height: 730px;
+  overflow: hidden;
+}
+
+.workInfo {
+  margin: 40px;
+}
+
+.workInfo p {
+  line-height: 1.45em;
+}
+
+.blue {
+  background-image: linear-gradient(-180deg, #f7fdff 0%, #d0f6ff 100%);
+  border: 1px solid #7ee6ff;
+}
+
+.pink {
+  background-image: linear-gradient(-180deg, #fffbfd 0%, #ff97cb 100%);
+  border: 1px solid #ff99be;
+}
+
+.darkerBlue {
+  background-image: linear-gradient(-180deg, #fcfcff 0%, #a296ff 100%);
+  border: 1px solid #9082ff;
+}
+
+.lightPink {
+  background-image: linear-gradient(-180deg, #ffffff 0%, #f1c2b8 100%);
+  border: 1px solid #f1c2b8;
+}
+
+.green {
+  background-image: linear-gradient(-180deg, #fcfffe 0%, #cffff3 100%);
+  border: 1px solid #a0dccc;
+}
+
+.purple {
+  background-image: linear-gradient(-180deg, #fdfaff 0%, #cda0ff 100%);
+  border: 1px solid #a477ff;
+}
+
+.orange {
+  background-image: linear-gradient(-180deg, #fffbf7 0%, #ffe6cd 100%);
+  border: 1px solid #ffbda0;
+}
+
+.darkBlue {
+  background-image: linear-gradient(-180deg, #fcfdff 0%, #bbd0ff 100%);
+  border: 1px solid #8099ff;
+}
+
+.tagDarkerBlue,
+.tagLightPink,
+.tagBlue,
+.tagPink,
+.tagGreen,
+.tagPurple,
+.tagOrange,
+.tagDarkBlue,
+.tagLightPink {
+  color: #fff;
+  letter-spacing: 0.05em;
+  border-radius: 20px;
+  font-weight: 300;
+  font-size: 11px;
+  padding: 4px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: -100;
+}
+
+.tagBlue {
+  background: #0db7df;
+}
+
+.tagDarkerBlue {
+  background: #422fd5;
+}
+
+.tagPink {
+  background: #ff4085;
+}
+
+.tagLightPink {
+  background: #ff5555;
+}
+
+.tagGreen {
+  background: #37d3ac;
+}
+
+.tagPurple {
+  background: #7535ff;
+}
+
+.tagOrange {
+  background: #ff8e5b;
+}
+
+.tagDarkBlue {
+  background: #1d39ac;
+}
+
+.workTitle--CoderHub,
+.workDescription--CoderHub {
+  color: #422fd5;
+}
+
+.workTitle--Search,
+.workDescription--Search {
+  color: #ff5555;
+}
+
+.workTitle--Personio,
+.workDescription--Personio {
+  color: #0db7df;
+}
+
+.workTitle--Fastgrep,
+.workDescription--Fastgrep {
+  color: #ff4085;
+}
+
+.workTitle--TheGuardian,
+.workDescription--TheGuardian {
+  color: #37d3ac;
+}
+
+.workTitle--Duomov,
+.workDescription--Duomov {
+  color: #7535ff;
+}
+
+.workTitle--StoryMix,
+.workDescription--StoryMix {
+  color: #ff8e5b;
+}
+
+.workTitle--Bitdreams,
+.workDescription--Bitdreams {
+  color: #1d39ac;
+}
+
+.workTitle--CoderHub,
+.workTitle--Search,
+.workTitle--Personio,
+.workTitle--Fastgrep,
+.workTitle--TheGuardian,
+.workTitle--Duomov,
+.workTitle--StoryMix,
+.workTitle--Bitdreams {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0 10px;
+}
+
+.workDescription--CoderHub,
+.workDescription--Search,
+.workDescription--Personio,
+.workDescription--Fastgrep,
+.workDescription--TheGuardian,
+.workDescription--Duomov,
+.workDescription--StoryMix,
+.workDescription--Bitdreams {
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+
+.link--CoderHub {
+  color: #422fd5;
+}
+
+.link--Search {
+  color: #ff5555;
+}
+
+.link--Personio {
+  color: #0db7df;
+}
+
+.link--Fastgrep {
+  color: #ff4085;
+}
+
+.link--TheGuardian {
+  color: #37d3ac;
+}
+
+.link--Duomov {
+  color: #7535ff;
+}
+
+.link--StoryMix {
+  color: #ff8e5b;
+}
+
+.link--Bitdreams,
+.otherLink,
+.thirdLink {
+  color: #1d39ac;
+}
+
+.link--CoderHub,
+.link--Search,
+.link--Personio,
+.link--Fastgrep,
+.link--TheGuardian,
+.link--Duomov,
+.link--StoryMix,
+.link--Bitdreams,
+.otherLink,
+.thirdLink {
+  margin-top: 24px;
+  position: relative;
+}
+
+.menuLink,
+.menuLink--Unselected {
+  position: relative;
+}
+
+.link--CoderHub::before,
+.link--Search::before,
+.link--Personio::before,
+.link--Fastgrep::before,
+.link--TheGuardian::before,
+.link--Duomov::before,
+.link--StoryMix::before,
+.link--Bitdreams::before,
+.otherLink::before,
+.menuLink::before,
+.menuLink--Unselected::before {
+  content: " ";
+  position: absolute;
+  bottom: -4.5px;
+  left: -0.3em;
+  width: calc(100% + 0.7em);
+  z-index: 0;
+  height: 0.7em;
+  transition: all 0.3s ease;
+}
+
+.thirdLink::before {
+  content: " ";
+  position: absolute;
+  bottom: -4.5px;
+  left: -0.15em;
+  width: calc(100% + 0.3em);
+  z-index: -1;
+  height: 0.6em;
+  transition: all 0.3s ease;
+}
+
+.link--CoderHub::before {
+  background: rgba(66, 47, 213, 0.2);
+}
+
+.link--Search::before {
+  background: rgba(255, 85, 85, 0.2);
+}
+
+.link--Personio::before {
+  background: rgba(13, 183, 223, 0.2);
+}
+
+.link--Fastgrep::before {
+  background: rgba(255, 64, 133, 0.2);
+}
+
+.link--TheGuardian::before {
+  background: rgba(55, 211, 172, 0.2);
+}
+
+.link--Duomov::before {
+  background: rgba(117, 53, 255, 0.2);
+}
+
+.link--StoryMix::before {
+  background: rgba(255, 142, 91, 0.2);
+}
+
+.link--Bitdreams::before {
+  background: rgba(29, 57, 172, 0.2);
+}
+
+.otherLink::before,
+.menuLink::before {
+  background: rgba(126, 229, 193, 0.2);
+}
+
+.thirdLink::before {
+  background: rgba(255, 231, 208);
+}
+
+.link--CoderHub:hover:before,
+.link--Search:hover:before,
+.link--Personio:hover:before,
+.link--Fastgrep:hover:before,
+.link--TheGuardian:hover:before,
+.link--Duomov:hover:before,
+.link--StoryMix:hover:before,
+.link--Bitdreams:hover:before,
+.otherLink:hover:before,
+.menuLink:hover:before,
+.menuLink--Unselected:hover:before {
+  bottom: -5px;
+  left: -0.8em;
+  height: 0.9em;
+  width: calc(100% + 1.1em);
+  transition: all 0.3s ease;
+}
+
+.menuLink--Unselected:hover:before {
+  background: rgba(126, 229, 193, 0.2);
+}
+
+.thirdLink:hover::before {
+  bottom: -5px;
+  left: -0.35em;
+  height: 0.65em;
+  width: calc(100% + 0.5em);
+  transition: all 0.3s ease;
+}
+
+.img--Personio,
+.img--Fastgrep,
+.img--Bitdreams {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.img--Personio {
+  width: 1100px;
+}
+
+.img--Fastgrep,
+.img--Bitdreams {
+  width: 900px;
+}
+
+.workImageWrapper {
+  text-align: center;
+}
+
+.img--TheGuardian,
+.img--Duomov,
+.img--Storymix {
+  margin-top: 20px;
+  width: 488px;
+}
+
+.myDribbble {
+  margin: -8px auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 767px) {
+  .workItem {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .workItem > div {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .img--Personio,
+  .img--Fastgrep,
+  .img--Bitdreams {
+    width: 600px;
+  }
+}

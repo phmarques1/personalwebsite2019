@@ -1,0 +1,136 @@
+.aboutMeWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.personalPhoto {
+  max-width: 100%;
+  max-height: 590px;
+}
+
+.copy {
+  max-width: 620px;
+  margin: 40px auto 16px;
+  text-align: left;
+}
+
+.copy p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.7em;
+}
+
+.skillsWrapper {
+  margin: 130px auto 90px;
+  max-width: 1200px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skillsWrapper h2 {
+  text-align: left;
+}
+
+.skills {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 1 2;
+  background: #ffffff;
+  border: 1px solid #dce6ec;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: calc(50% - 30px);
+  height: 210px;
+  flex-grow: 1;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.skills:nth-child(even) {
+  margin-right: 0;
+}
+
+.skill--Items {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skill--Items li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.skill--Items li:last-child {
+  margin-bottom: 0;
+}
+
+.skill {
+  align-self: center;
+  padding-left: 40px;
+}
+
+.skill h3 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.skill--Illustration {
+  justify-self: end;
+  align-self: center;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 960px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+  .skill--Illustration {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .skillsContainer {
+    flex-direction: column;
+  }
+  .skills {
+    grid-template-columns: 2fr 1fr;
+    height: 210px;
+    width: 100%;
+  }
+  .skill--Illustration {
+    display: block;
+  }
+  .skill--Illustration {
+    justify-self: center;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2fr, auto);
+    height: 400px;
+    text-align: center;
+  }
+
+  .skill {
+    padding-left: 0;
+    padding-bottom: 30px;
+    grid-area: 2;
+  }
+  .skill--Illustration {
+    padding-top: 30px;
+    padding-right: 0;
+    grid-area: 1;
+  }
+}

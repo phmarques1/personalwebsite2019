@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  padding: 32px 0 24px;
+  z-index: 1000;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.headerScrolled {
+  background: rgba(29, 57, 172, 1);
+  padding: 15px 0;
+  backdrop-filter: blur(20px);
+}
+
+.headerGroup {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo {
+  display: grid;
+  align-items: center;
+}
+
+.menuItems {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, auto);
+  justify-content: end;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header a {
+  color: #1d39ac;
+}

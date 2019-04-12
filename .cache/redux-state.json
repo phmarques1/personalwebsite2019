@@ -1,0 +1,2453 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d3100eb39fdd2b63e2671e5941472659",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3ce94ab11be99eedc5d674ae49c9d441",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d13da9d1e2b28853a9f0061aa4b66f84",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "51a2ff718d0ca129bb58501832a2a751",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9ca4b64b6ff890c7bd5e061ac965242e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "710aa9b2bde709c39d12ad93eb97b0de",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d2877382f07d575ad8c1243046896c6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "416b62e4-e606-5a0a-a9e8-5ad2782b8503": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-source-filesystem",
+      "id": "416b62e4-e606-5a0a-a9e8-5ad2782b8503",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/phmarques/Documents/personal-website-2019/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d076ce6d32986f7e5b982aada6308e77",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "061d2b13eb246b6cc4f1575d778280bf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2a9377fe-7cd8-5250-98b4-7b0679b7324b": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-google-analytics",
+      "id": "2a9377fe-7cd8-5250-98b4-7b0679b7324b",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-55629683-12"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "be9a67a400a7f7efdbdf11d2ab6f7ea0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "39ceb8e2098f2d70599ba33af77069ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "aeaa4835-c36c-54d0-a754-0b5ffca1c2ad": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-favicon",
+      "id": "aeaa4835-c36c-54d0-a754-0b5ffca1c2ad",
+      "name": "gatsby-plugin-favicon",
+      "version": "3.1.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "3.1.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "^0.4.6"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.2"
+          }
+        ],
+        "devDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7ca095bb0df2dafd4662c5d214cb6081",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d25729d7-0b5e-5fe3-8c7b-127b36b6ad9d": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-manifest",
+      "id": "d25729d7-0b5e-5fe3-8c7b-127b36b6ad9d",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c1c8d0fa65539726642c77006ca122cc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "46a412c69a9229fa0ad01c2006f1cfda",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.5"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "02d906039710aebbb7ea477ee8968e85",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f9413f66-b51e-5365-bb96-18f56ecb2e7e": {
+      "resolve": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-page-creator",
+      "id": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/phmarques/Documents/personal-website-2019/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/phmarques/Documents/personal-website-2019/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f363cfe6a259d1fe35ed867d2ceb1990",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Pedro Marques | Product Designer",
+        "description": "I am a product designer taking complex technology and making it simple. For humans.",
+        "author": "Pedro Marques"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-04T18:25:23.202Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8e0ded02d66d235d40a8afe348091891",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8eaa4891-4221-5565-baa9-362f243dc0e2": {
+      "id": "8eaa4891-4221-5565-baa9-362f243dc0e2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9485cf6871be688a9009eba2e105055e",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 768,
+      "prettySize": "768 B",
+      "modifiedTime": "2019-03-31T20:19:29.464Z",
+      "accessTime": "2019-04-04T18:25:26.656Z",
+      "changeTime": "2019-03-31T20:19:29.464Z",
+      "birthTime": "2019-03-05T19:41:49.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 24,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604541993,
+      "blocks": 0,
+      "atimeMs": 1554402326656.3857,
+      "mtimeMs": 1554063569464.2556,
+      "ctimeMs": 1554063569464.2556,
+      "birthtimeMs": 1551814909000,
+      "atime": "2019-04-04T18:25:26.656Z",
+      "mtime": "2019-03-31T20:19:29.464Z",
+      "ctime": "2019-03-31T20:19:29.464Z",
+      "birthtime": "2019-03-05T19:41:49.000Z"
+    },
+    "68008439-4c15-540e-a594-3314efb7a9d6": {
+      "id": "68008439-4c15-540e-a594-3314efb7a9d6",
+      "children": [
+        "3e53576f-bb7e-5373-8844-b1ec2abcb79b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "64f6ecfd548a1d2df39bd7e93ec179bc",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/logo.png",
+      "relativePath": "logo.png",
+      "extension": "png",
+      "size": 4314,
+      "prettySize": "4.31 kB",
+      "modifiedTime": "2019-03-05T22:06:19.753Z",
+      "accessTime": "2019-03-06T17:55:27.658Z",
+      "changeTime": "2019-03-05T22:06:20.472Z",
+      "birthTime": "2019-03-05T22:06:19.753Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "logo.png",
+      "ext": ".png",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542667,
+      "blocks": 16,
+      "atimeMs": 1551894927657.5254,
+      "mtimeMs": 1551823579752.9934,
+      "ctimeMs": 1551823580471.9248,
+      "birthtimeMs": 1551823579752.8738,
+      "atime": "2019-03-06T17:55:27.658Z",
+      "mtime": "2019-03-05T22:06:19.753Z",
+      "ctime": "2019-03-05T22:06:20.472Z",
+      "birthtime": "2019-03-05T22:06:19.753Z"
+    },
+    "3e53576f-bb7e-5373-8844-b1ec2abcb79b": {
+      "id": "3e53576f-bb7e-5373-8844-b1ec2abcb79b",
+      "children": [],
+      "parent": "68008439-4c15-540e-a594-3314efb7a9d6",
+      "internal": {
+        "contentDigest": "64f6ecfd548a1d2df39bd7e93ec179bc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dbb3630a-2324-548f-aa2a-a5a819ca7c71": {
+      "id": "dbb3630a-2324-548f-aa2a-a5a819ca7c71",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "63a1ac3cc93b14a7b09b8e5ddb48dfdc",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/code.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/code.svg",
+      "relativePath": "code.svg",
+      "extension": "svg",
+      "size": 102815,
+      "prettySize": "103 kB",
+      "modifiedTime": "2019-03-04T20:42:07.000Z",
+      "accessTime": "2019-03-05T22:12:02.105Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-03-04T20:42:07.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "code.svg",
+      "ext": ".svg",
+      "name": "code",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542008,
+      "blocks": 208,
+      "atimeMs": 1551823922105.386,
+      "mtimeMs": 1551732127000,
+      "ctimeMs": 1551823384291.2935,
+      "birthtimeMs": 1551732127000,
+      "atime": "2019-03-05T22:12:02.105Z",
+      "mtime": "2019-03-04T20:42:07.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-03-04T20:42:07.000Z"
+    },
+    "9caa0ac8-be5a-5df0-914e-35064713901e": {
+      "id": "9caa0ac8-be5a-5df0-914e-35064713901e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "98cbfa2dc50f93d0eb61b305e668f6e3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/design.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/design.svg",
+      "relativePath": "design.svg",
+      "extension": "svg",
+      "size": 130901,
+      "prettySize": "131 kB",
+      "modifiedTime": "2019-03-04T20:42:27.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-03-04T20:42:27.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "design.svg",
+      "ext": ".svg",
+      "name": "design",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542012,
+      "blocks": 256,
+      "atimeMs": 1551823922105.651,
+      "mtimeMs": 1551732147000,
+      "ctimeMs": 1551823384291.44,
+      "birthtimeMs": 1551732147000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-03-04T20:42:27.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-03-04T20:42:27.000Z"
+    },
+    "30c818f6-7b0f-5f80-9bd5-6f016d910516": {
+      "id": "30c818f6-7b0f-5f80-9bd5-6f016d910516",
+      "children": [
+        "5ec894e9-b5d1-52d0-96b9-fd0b081fec62"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ff85643182a1682406d22427c5584e8a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/designing-a-design-team.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/designing-a-design-team.jpeg",
+      "relativePath": "designing-a-design-team.jpeg",
+      "extension": "jpeg",
+      "size": 99178,
+      "prettySize": "99.2 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "designing-a-design-team.jpeg",
+      "ext": ".jpeg",
+      "name": "designing-a-design-team",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542028,
+      "blocks": 200,
+      "atimeMs": 1551823922105.8804,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.9836,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "bf96c092-8da9-5db2-9739-097caeacbd91": {
+      "id": "bf96c092-8da9-5db2-9739-097caeacbd91",
+      "children": [
+        "c93dd2af-0f89-53bf-a32e-6d2d68e294ca"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "986acf4de0891f4a4bf2f21a77288a36",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/designthinking.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/designthinking.jpeg",
+      "relativePath": "designthinking.jpeg",
+      "extension": "jpeg",
+      "size": 105053,
+      "prettySize": "105 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "designthinking.jpeg",
+      "ext": ".jpeg",
+      "name": "designthinking",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542014,
+      "blocks": 208,
+      "atimeMs": 1551823922105.9683,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.5112,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "5ec894e9-b5d1-52d0-96b9-fd0b081fec62": {
+      "id": "5ec894e9-b5d1-52d0-96b9-fd0b081fec62",
+      "children": [],
+      "parent": "30c818f6-7b0f-5f80-9bd5-6f016d910516",
+      "internal": {
+        "contentDigest": "ff85643182a1682406d22427c5584e8a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c93dd2af-0f89-53bf-a32e-6d2d68e294ca": {
+      "id": "c93dd2af-0f89-53bf-a32e-6d2d68e294ca",
+      "children": [],
+      "parent": "bf96c092-8da9-5db2-9739-097caeacbd91",
+      "internal": {
+        "contentDigest": "986acf4de0891f4a4bf2f21a77288a36",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "70597ad3-40c0-5c91-9f8c-f21cd7fb337c": {
+      "id": "70597ad3-40c0-5c91-9f8c-f21cd7fb337c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "70be9851630af721ad2d0023cf09f343",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/concept.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/concept.svg",
+      "relativePath": "concept.svg",
+      "extension": "svg",
+      "size": 148889,
+      "prettySize": "149 kB",
+      "modifiedTime": "2019-03-04T20:42:21.000Z",
+      "accessTime": "2019-03-06T18:29:41.000Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-03-04T20:42:21.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "concept.svg",
+      "ext": ".svg",
+      "name": "concept",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542022,
+      "blocks": 296,
+      "atimeMs": 1551896981000,
+      "mtimeMs": 1551732141000,
+      "ctimeMs": 1551823384291.7869,
+      "birthtimeMs": 1551732141000,
+      "atime": "2019-03-06T18:29:41.000Z",
+      "mtime": "2019-03-04T20:42:21.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-03-04T20:42:21.000Z"
+    },
+    "43b7cddd-115c-5e33-945d-cca99eb72c67": {
+      "id": "43b7cddd-115c-5e33-945d-cca99eb72c67",
+      "children": [
+        "c9836824-1f38-5464-b8be-8461e51901e5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "483abc94dfdbed63ae15de9cf79d2dab",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/footer--illustration.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/footer--illustration.png",
+      "relativePath": "footer--illustration.png",
+      "extension": "png",
+      "size": 162047,
+      "prettySize": "162 kB",
+      "modifiedTime": "2019-03-04T23:01:29.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-03-04T23:01:29.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "footer--illustration.png",
+      "ext": ".png",
+      "name": "footer--illustration",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604541998,
+      "blocks": 320,
+      "atimeMs": 1551823922106.1404,
+      "mtimeMs": 1551740489000,
+      "ctimeMs": 1551823384290.9436,
+      "birthtimeMs": 1551740489000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-03-04T23:01:29.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-03-04T23:01:29.000Z"
+    },
+    "af291060-26a0-54f6-9c9d-81c81a5e0218": {
+      "id": "af291060-26a0-54f6-9c9d-81c81a5e0218",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "778939e9c83fd30f4d7e23a2ca8a99b3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/research.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/research.svg",
+      "relativePath": "research.svg",
+      "extension": "svg",
+      "size": 162333,
+      "prettySize": "162 kB",
+      "modifiedTime": "2019-03-04T20:42:13.000Z",
+      "accessTime": "2019-03-06T18:30:49.197Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-03-04T20:42:13.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "research.svg",
+      "ext": ".svg",
+      "name": "research",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604541994,
+      "blocks": 320,
+      "atimeMs": 1551897049197.1416,
+      "mtimeMs": 1551732133000,
+      "ctimeMs": 1551823384290.7915,
+      "birthtimeMs": 1551732133000,
+      "atime": "2019-03-06T18:30:49.197Z",
+      "mtime": "2019-03-04T20:42:13.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-03-04T20:42:13.000Z"
+    },
+    "c9836824-1f38-5464-b8be-8461e51901e5": {
+      "id": "c9836824-1f38-5464-b8be-8461e51901e5",
+      "children": [],
+      "parent": "43b7cddd-115c-5e33-945d-cca99eb72c67",
+      "internal": {
+        "contentDigest": "483abc94dfdbed63ae15de9cf79d2dab",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1c2cccdc-a8d0-5a43-86ba-564a0e8f59ba": {
+      "id": "1c2cccdc-a8d0-5a43-86ba-564a0e8f59ba",
+      "children": [
+        "9a8f853c-1e2d-59d5-b239-aa66baed4ce2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cae1c22c74e6f421f5098ef5fc4972e1",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/bitdreams.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/bitdreams.png",
+      "relativePath": "bitdreams.png",
+      "extension": "png",
+      "size": 287070,
+      "prettySize": "287 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.105Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "bitdreams.png",
+      "ext": ".png",
+      "name": "bitdreams",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542016,
+      "blocks": 568,
+      "atimeMs": 1551823922105.3445,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.584,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.105Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "9a8f853c-1e2d-59d5-b239-aa66baed4ce2": {
+      "id": "9a8f853c-1e2d-59d5-b239-aa66baed4ce2",
+      "children": [],
+      "parent": "1c2cccdc-a8d0-5a43-86ba-564a0e8f59ba",
+      "internal": {
+        "contentDigest": "cae1c22c74e6f421f5098ef5fc4972e1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e1106a1a-3197-5237-817e-8ee8d429c700": {
+      "id": "e1106a1a-3197-5237-817e-8ee8d429c700",
+      "children": [
+        "c5af05b8-dc2d-5e58-9b11-191571bfc9a8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "85d1bd840524b00d60bd64af31591eeb",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/fastgrep.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/fastgrep.png",
+      "relativePath": "fastgrep.png",
+      "extension": "png",
+      "size": 352029,
+      "prettySize": "352 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-06T17:55:27.685Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "fastgrep.png",
+      "ext": ".png",
+      "name": "fastgrep",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542018,
+      "blocks": 688,
+      "atimeMs": 1551894927684.8918,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.6558,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-06T17:55:27.685Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "e811e4dc-4fe0-52c9-bc88-2e66eb5a2b03": {
+      "id": "e811e4dc-4fe0-52c9-bc88-2e66eb5a2b03",
+      "children": [
+        "12bf6dfc-e529-51c9-9f24-d6ed5ae1671b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8ef3ba004a4e30e66e635d165a9b212a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/social-image.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/social-image.png",
+      "relativePath": "social-image.png",
+      "extension": "png",
+      "size": 266056,
+      "prettySize": "266 kB",
+      "modifiedTime": "2019-03-06T18:29:16.337Z",
+      "accessTime": "2019-03-06T18:30:41.781Z",
+      "changeTime": "2019-03-06T18:29:17.108Z",
+      "birthTime": "2019-03-06T18:29:16.337Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "social-image.png",
+      "ext": ".png",
+      "name": "social-image",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604653694,
+      "blocks": 520,
+      "atimeMs": 1551897041781.2678,
+      "mtimeMs": 1551896956337.4956,
+      "ctimeMs": 1551896957107.6096,
+      "birthtimeMs": 1551896956337.232,
+      "atime": "2019-03-06T18:30:41.781Z",
+      "mtime": "2019-03-06T18:29:16.337Z",
+      "ctime": "2019-03-06T18:29:17.108Z",
+      "birthtime": "2019-03-06T18:29:16.337Z"
+    },
+    "c5af05b8-dc2d-5e58-9b11-191571bfc9a8": {
+      "id": "c5af05b8-dc2d-5e58-9b11-191571bfc9a8",
+      "children": [],
+      "parent": "e1106a1a-3197-5237-817e-8ee8d429c700",
+      "internal": {
+        "contentDigest": "85d1bd840524b00d60bd64af31591eeb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "12bf6dfc-e529-51c9-9f24-d6ed5ae1671b": {
+      "id": "12bf6dfc-e529-51c9-9f24-d6ed5ae1671b",
+      "children": [],
+      "parent": "e811e4dc-4fe0-52c9-bc88-2e66eb5a2b03",
+      "internal": {
+        "contentDigest": "8ef3ba004a4e30e66e635d165a9b212a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "650a8213-ca1d-5ebc-83b5-b2fa8fb1d12c": {
+      "id": "650a8213-ca1d-5ebc-83b5-b2fa8fb1d12c",
+      "children": [
+        "8d00d9ae-f499-530d-b067-4e5e9f4e1169"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f9dc53fa3acb56857d69bf4f92890fdb",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/payroll.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/payroll.png",
+      "relativePath": "payroll.png",
+      "extension": "png",
+      "size": 365111,
+      "prettySize": "365 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.107Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "payroll.png",
+      "ext": ".png",
+      "name": "payroll",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542000,
+      "blocks": 720,
+      "atimeMs": 1551823922106.7983,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.011,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.107Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "8d00d9ae-f499-530d-b067-4e5e9f4e1169": {
+      "id": "8d00d9ae-f499-530d-b067-4e5e9f4e1169",
+      "children": [],
+      "parent": "650a8213-ca1d-5ebc-83b5-b2fa8fb1d12c",
+      "internal": {
+        "contentDigest": "f9dc53fa3acb56857d69bf4f92890fdb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fcc27109-72af-58c7-924d-2ee53e89886b": {
+      "id": "fcc27109-72af-58c7-924d-2ee53e89886b",
+      "children": [
+        "0a0ea243-d91e-5805-b780-5a8b65249237"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6a8bba0a47b715e37856ccd29ce6c7db",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/designthinking.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/designthinking.png",
+      "relativePath": "designthinking.png",
+      "extension": "png",
+      "size": 567836,
+      "prettySize": "568 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "designthinking.png",
+      "ext": ".png",
+      "name": "designthinking",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542006,
+      "blocks": 1112,
+      "atimeMs": 1551823922106.004,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.2156,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "0a0ea243-d91e-5805-b780-5a8b65249237": {
+      "id": "0a0ea243-d91e-5805-b780-5a8b65249237",
+      "children": [],
+      "parent": "fcc27109-72af-58c7-924d-2ee53e89886b",
+      "internal": {
+        "contentDigest": "6a8bba0a47b715e37856ccd29ce6c7db",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9a34a5b5-3c7c-54d6-b175-d6a90bcb5adb": {
+      "id": "9a34a5b5-3c7c-54d6-b175-d6a90bcb5adb",
+      "children": [
+        "5594b20b-cc89-56e8-b441-d2802393cef6"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "69385ed4cace0bee28a33558586b0404",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/designing-a-design-team.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/designing-a-design-team.png",
+      "relativePath": "designing-a-design-team.png",
+      "extension": "png",
+      "size": 831032,
+      "prettySize": "831 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "designing-a-design-team.png",
+      "ext": ".png",
+      "name": "designing-a-design-team",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542026,
+      "blocks": 1624,
+      "atimeMs": 1551823922105.9167,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.918,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "5594b20b-cc89-56e8-b441-d2802393cef6": {
+      "id": "5594b20b-cc89-56e8-b441-d2802393cef6",
+      "children": [],
+      "parent": "9a34a5b5-3c7c-54d6-b175-d6a90bcb5adb",
+      "internal": {
+        "contentDigest": "69385ed4cace0bee28a33558586b0404",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d3ae8635-1c85-5984-86c1-60a6987c950c": {
+      "id": "d3ae8635-1c85-5984-86c1-60a6987c950c",
+      "children": [
+        "17f2a72f-5775-5cd0-b0d0-e36d3f8b4741"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c2b8954a5cdc3d0bd5fb5a53af17c048",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/duomov.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/duomov.png",
+      "relativePath": "duomov.png",
+      "extension": "png",
+      "size": 880894,
+      "prettySize": "881 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-06T17:55:17.332Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "duomov.png",
+      "ext": ".png",
+      "name": "duomov",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542024,
+      "blocks": 1728,
+      "atimeMs": 1551894917331.7146,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.8516,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-06T17:55:17.332Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "17f2a72f-5775-5cd0-b0d0-e36d3f8b4741": {
+      "id": "17f2a72f-5775-5cd0-b0d0-e36d3f8b4741",
+      "children": [],
+      "parent": "d3ae8635-1c85-5984-86c1-60a6987c950c",
+      "internal": {
+        "contentDigest": "c2b8954a5cdc3d0bd5fb5a53af17c048",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "16dbcb71-83ca-5d66-a135-8b8de988aead": {
+      "id": "16dbcb71-83ca-5d66-a135-8b8de988aead",
+      "children": [
+        "3039930c-1319-5e8b-8854-83bf27446d9a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2297eb85c5e70e81106b78e88bdbe319",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/storymix.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/storymix.png",
+      "relativePath": "storymix.png",
+      "extension": "png",
+      "size": 889645,
+      "prettySize": "890 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-06T17:55:28.877Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "storymix.png",
+      "ext": ".png",
+      "name": "storymix",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542032,
+      "blocks": 1744,
+      "atimeMs": 1551894928876.5066,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384292.1167,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-06T17:55:28.877Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "3039930c-1319-5e8b-8854-83bf27446d9a": {
+      "id": "3039930c-1319-5e8b-8854-83bf27446d9a",
+      "children": [],
+      "parent": "16dbcb71-83ca-5d66-a135-8b8de988aead",
+      "internal": {
+        "contentDigest": "2297eb85c5e70e81106b78e88bdbe319",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3035c39c-31a9-54d9-9242-b8a4ecd97eac": {
+      "id": "3035c39c-31a9-54d9-9242-b8a4ecd97eac",
+      "children": [
+        "a0f10858-07bf-56b8-90f0-761b88d528fe"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "17fb24839dbb5ba9baa12172884556cf",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/theguardian.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/theguardian.png",
+      "relativePath": "theguardian.png",
+      "extension": "png",
+      "size": 924887,
+      "prettySize": "925 kB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.107Z",
+      "changeTime": "2019-03-05T22:03:04.292Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "theguardian.png",
+      "ext": ".png",
+      "name": "theguardian",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542020,
+      "blocks": 1808,
+      "atimeMs": 1551823922107.217,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.7212,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.107Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.292Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "a0f10858-07bf-56b8-90f0-761b88d528fe": {
+      "id": "a0f10858-07bf-56b8-90f0-761b88d528fe",
+      "children": [],
+      "parent": "3035c39c-31a9-54d9-9242-b8a4ecd97eac",
+      "internal": {
+        "contentDigest": "17fb24839dbb5ba9baa12172884556cf",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "95aa32e4-c347-59da-a9a0-37aa4b03417e": {
+      "id": "95aa32e4-c347-59da-a9a0-37aa4b03417e",
+      "children": [
+        "a92b6f81-a9c7-56eb-87c4-415e4e867311"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bb8bb01607b4f0a71da3f61162d7d56e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/designchallenge.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/designchallenge.png",
+      "relativePath": "designchallenge.png",
+      "extension": "png",
+      "size": 1766072,
+      "prettySize": "1.77 MB",
+      "modifiedTime": "2019-02-21T17:09:09.000Z",
+      "accessTime": "2019-03-05T22:12:02.106Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-02-21T17:09:09.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "designchallenge.png",
+      "ext": ".png",
+      "name": "designchallenge",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542004,
+      "blocks": 3456,
+      "atimeMs": 1551823922105.804,
+      "mtimeMs": 1550768949000,
+      "ctimeMs": 1551823384291.1475,
+      "birthtimeMs": 1550768949000,
+      "atime": "2019-03-05T22:12:02.106Z",
+      "mtime": "2019-02-21T17:09:09.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-02-21T17:09:09.000Z"
+    },
+    "a92b6f81-a9c7-56eb-87c4-415e4e867311": {
+      "id": "a92b6f81-a9c7-56eb-87c4-415e4e867311",
+      "children": [],
+      "parent": "95aa32e4-c347-59da-a9a0-37aa4b03417e",
+      "internal": {
+        "contentDigest": "bb8bb01607b4f0a71da3f61162d7d56e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "12c96ac2-d5ca-524f-9883-bf47da4669a4": {
+      "id": "12c96ac2-d5ca-524f-9883-bf47da4669a4",
+      "children": [
+        "7d8853d3-8fc0-555f-81e5-44df5c417b91"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fe6c33d20e10a754b403d32792a2c823",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/pedroMunich.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/pedroMunich.png",
+      "relativePath": "pedroMunich.png",
+      "extension": "png",
+      "size": 3631453,
+      "prettySize": "3.63 MB",
+      "modifiedTime": "2019-03-02T18:37:45.000Z",
+      "accessTime": "2019-03-12T22:20:39.773Z",
+      "changeTime": "2019-03-05T22:03:04.291Z",
+      "birthTime": "2019-03-02T18:37:45.000Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "pedroMunich.png",
+      "ext": ".png",
+      "name": "pedroMunich",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8604542010,
+      "blocks": 7096,
+      "atimeMs": 1552429239772.6719,
+      "mtimeMs": 1551551865000,
+      "ctimeMs": 1551823384291.3667,
+      "birthtimeMs": 1551551865000,
+      "atime": "2019-03-12T22:20:39.773Z",
+      "mtime": "2019-03-02T18:37:45.000Z",
+      "ctime": "2019-03-05T22:03:04.291Z",
+      "birthtime": "2019-03-02T18:37:45.000Z"
+    },
+    "7d8853d3-8fc0-555f-81e5-44df5c417b91": {
+      "id": "7d8853d3-8fc0-555f-81e5-44df5c417b91",
+      "children": [],
+      "parent": "12c96ac2-d5ca-524f-9883-bf47da4669a4",
+      "internal": {
+        "contentDigest": "fe6c33d20e10a754b403d32792a2c823",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c842d873-e8d0-57be-98d5-22b1b2bed4dc": {
+      "id": "c842d873-e8d0-57be-98d5-22b1b2bed4dc",
+      "children": [
+        "ef767e86-5e76-52a9-ad46-4731d5d65b2f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e2f2cb2075b5fc4655d410c391bb5f44",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/coderhub.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/coderhub.png",
+      "relativePath": "coderhub.png",
+      "extension": "png",
+      "size": 1292970,
+      "prettySize": "1.29 MB",
+      "modifiedTime": "2019-03-31T20:15:40.757Z",
+      "accessTime": "2019-03-31T20:15:40.756Z",
+      "changeTime": "2019-03-31T20:15:40.760Z",
+      "birthTime": "2019-03-31T20:15:40.756Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "coderhub.png",
+      "ext": ".png",
+      "name": "coderhub",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605795162,
+      "blocks": 2528,
+      "atimeMs": 1554063340756.0586,
+      "mtimeMs": 1554063340756.837,
+      "ctimeMs": 1554063340759.695,
+      "birthtimeMs": 1554063340756.0586,
+      "atime": "2019-03-31T20:15:40.756Z",
+      "mtime": "2019-03-31T20:15:40.757Z",
+      "ctime": "2019-03-31T20:15:40.760Z",
+      "birthtime": "2019-03-31T20:15:40.756Z"
+    },
+    "ef767e86-5e76-52a9-ad46-4731d5d65b2f": {
+      "id": "ef767e86-5e76-52a9-ad46-4731d5d65b2f",
+      "children": [],
+      "parent": "c842d873-e8d0-57be-98d5-22b1b2bed4dc",
+      "internal": {
+        "contentDigest": "e2f2cb2075b5fc4655d410c391bb5f44",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c64b5749-bbab-5111-843c-e51279c0764a": {
+      "id": "c64b5749-bbab-5111-843c-e51279c0764a",
+      "children": [
+        "fd12e8a8-286f-5dde-84d5-eb193fadc50d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3d92063d99b42f312563d1dfd9a9febe",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/personio-search.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/phmarques/Documents/personal-website-2019/src/images/personio-search.png",
+      "relativePath": "personio-search.png",
+      "extension": "png",
+      "size": 259684,
+      "prettySize": "260 kB",
+      "modifiedTime": "2019-03-31T20:19:29.463Z",
+      "accessTime": "2019-03-31T20:19:29.463Z",
+      "changeTime": "2019-03-31T20:19:29.464Z",
+      "birthTime": "2019-03-31T20:19:29.463Z",
+      "root": "/",
+      "dir": "/Users/phmarques/Documents/personal-website-2019/src/images",
+      "base": "personio-search.png",
+      "ext": ".png",
+      "name": "personio-search",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8605796445,
+      "blocks": 512,
+      "atimeMs": 1554063569462.6865,
+      "mtimeMs": 1554063569462.9707,
+      "ctimeMs": 1554063569464.4766,
+      "birthtimeMs": 1554063569462.6865,
+      "atime": "2019-03-31T20:19:29.463Z",
+      "mtime": "2019-03-31T20:19:29.463Z",
+      "ctime": "2019-03-31T20:19:29.464Z",
+      "birthtime": "2019-03-31T20:19:29.463Z"
+    },
+    "fd12e8a8-286f-5dde-84d5-eb193fadc50d": {
+      "id": "fd12e8a8-286f-5dde-84d5-eb193fadc50d",
+      "children": [],
+      "parent": "c64b5749-bbab-5111-843c-e51279c0764a",
+      "internal": {
+        "contentDigest": "3d92063d99b42f312563d1dfd9a9febe",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "pluginCreatorId": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d07498dbebb80bff97379caaafbde925",
+        "description": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/phmarques/Documents/personal-website-2019/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "pluginCreatorId": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3b4a2c90e96101b11a968d0d39d30263",
+        "description": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/phmarques/Documents/personal-website-2019/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "pluginCreatorId": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "71f689a68ff2635011fec1e533abb649",
+        "description": "f9413f66-b51e-5365-bb96-18f56ecb2e7e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b0ffc99ad70ac2012c0ed09f8159075c",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "a02e919e652862a7732860d709ba1989"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-image-js": 2011440971,
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 1025518380,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/404.js"
+    },
+    "/Users/phmarques/Documents/personal-website-2019/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/about.js"
+    },
+    "/Users/phmarques/Documents/personal-website-2019/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    },
+    "sq--src-components-image-js": {
+      "name": "usersPhmarquesDocumentsPersonalWebsite2019SrcComponentsImageJs2011440971",
+      "componentPath": "/Users/phmarques/Documents/personal-website-2019/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersPhmarquesDocumentsPersonalWebsite2019SrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    }
+  }
+}
