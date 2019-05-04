@@ -30,7 +30,7 @@ const SecondPage = () => (
       <div className="copy">
         <h2 className="copyTitle">
           I’m Pedro Marques, a Brazilian product designer currently living in
-          Munich and working at Personio.
+          Munich and working at Sixt. Previously at Personio.
         </h2>
         <p className="copyDescription">
           People. Short word, big meaning. While technology has changed a lot,
